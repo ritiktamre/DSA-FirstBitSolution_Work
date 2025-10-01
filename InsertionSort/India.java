@@ -1,20 +1,20 @@
 package InsertionSort;
 
-public class Demo {
+public class India {
 
 	public static void main(String[] args) {
 	
-		int arr[] = {1,45,2,3,45,4,24,67,8,90,87,6};
+		int arr[] = {12,34,5,67,54,32,4,21,1,23,2,8,6};
 		
-		for(int i=0;i<arr.length;i++)
+		for(int i =0;i<arr.length;i++)
 		{
 			int temp = arr[i];
-			int j = i-1;
+			int j = i - 1;
 			
-			while(j>=0 && arr[j]>temp)
+			while( j >= 0 && arr[j] > temp)
 			{
 				arr[j+1] = arr[j];
-				j = j-1;
+				j = j - 1;
 			}
 			
 			arr[j+1] = temp;
@@ -24,7 +24,6 @@ public class Demo {
 		{
 			System.out.println(arr[i]);
 		}
-
 	}
 
 }

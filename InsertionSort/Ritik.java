@@ -1,20 +1,20 @@
 package InsertionSort;
 
-public class Demo {
+public class Ritik {
 
 	public static void main(String[] args) {
 	
-		int arr[] = {1,45,2,3,45,4,24,67,8,90,87,6};
+		int arr[] = {1,34,2,3,45,6,78,9,77,5,32,4};
 		
 		for(int i=0;i<arr.length;i++)
 		{
 			int temp = arr[i];
-			int j = i-1;
+			int j =i - 1;
 			
-			while(j>=0 && arr[j]>temp)
+			while(j>=0 && arr[j] >temp)
 			{
 				arr[j+1] = arr[j];
-				j = j-1;
+				j =j - 1;
 			}
 			
 			arr[j+1] = temp;

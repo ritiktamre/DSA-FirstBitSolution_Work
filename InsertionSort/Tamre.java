@@ -1,17 +1,17 @@
 package InsertionSort;
 
-public class Demo {
+public class Tamre {
 
 	public static void main(String[] args) {
-	
-		int arr[] = {1,45,2,3,45,4,24,67,8,90,87,6};
+		
+		int arr[] = {12,3,45,6,78,7,54,5,89,0,1,5};
 		
 		for(int i=0;i<arr.length;i++)
 		{
 			int temp = arr[i];
-			int j = i-1;
+			int j = i - 1;
 			
-			while(j>=0 && arr[j]>temp)
+			while(j>=0 && arr[j] > temp)
 			{
 				arr[j+1] = arr[j];
 				j = j-1;
@@ -20,7 +20,7 @@ public class Demo {
 			arr[j+1] = temp;
 		}
 		
-		for(int i=0;i<arr.length;i++)
+		for(int i =0;i<arr.length;i++)
 		{
 			System.out.println(arr[i]);
 		}
